@@ -1,5 +1,5 @@
 import sys
 
-text = sys.stdin.read()
-str = text
-print str.replace(". ", '\n')	
+s = sys.stdin.read()
+
+print(s.replace('. ', '\n'))
