@@ -21,6 +21,9 @@ for c in text:
 	c = c.replace(';',' ; ')
 	c = c.replace('"',' " ')
 	c = c.replace('·',' · ')
+	c = c.strip('\n')	
+	if c =='':
+		continue
 	counter = counter + 1
 	tokens = c.strip('\n')
 	tokens = tokens.split(' ')
