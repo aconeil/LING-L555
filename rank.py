@@ -25,5 +25,5 @@ for i in range(0, len(freq)):
 fd = open('rank.txt', 'w+')
 for w in ranks:
 	fd.write('%d\t%d\t%s\n' % (w[0], w[1], w[2]))
-	print('%d\t%d\t%s\n' % (w[0], w[1], w[2]))
+#	print('%d\t%d\t%s\n' % (w[0], w[1], w[2]))
 fd.close()
