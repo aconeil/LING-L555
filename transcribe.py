@@ -12,7 +12,7 @@ for line in fd.readlines():
 	#split on tab character and put values into tuple
 	(f, w) = line.split('\t')
 	IPAkey[f] = w
-print(IPAkey)
+#print(IPAkey)
 #read input and call it text
 input_text = sys.stdin.readlines()
 for line in input_text:
