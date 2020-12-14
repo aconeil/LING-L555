@@ -47,6 +47,7 @@ for line in corpus:
         #split rows in corpus by tab
 	row = line.split('\t')
 	form = row[1]
+	row[3] = 'X'
 	if form in POStagger:
 		#if there is only one pos for a form make column 4 that form
 		if len(POStagger[form]) == 1:
