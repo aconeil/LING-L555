@@ -39,7 +39,7 @@ for x in frequency:
         #divide the key of frequency[x] by the counter
         s = frequency[x]/counter
         print('%.2f' %s, '\t', frequency[x], '\t', x, '\t', '_')
-for b in tagger:
-        for p in tagger[b]:
-                r = tagger[b][p]/word_frequency[b]
-                print('%.2f' %r, '\t', word_frequency[b], '\t', p, '\t', b)
+#for b in tagger:
+ #       for p in tagger[b]:
+  #              r = tagger[b][p]/word_frequency[b]
+   #             print('%.2f' %r, '\t', word_frequency[b], '\t', p, '\t', b)

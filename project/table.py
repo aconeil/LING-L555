@@ -1,10 +1,15 @@
 import sys
 
 sentencecounter = 0
-POS = "_"
-MORPHEME = "_"
-GLOSS = "_"
+XPOS = "_"
+UPOS = '_'
+FEATS = '_'
+HEAD = '_'
+DEPREL = '_'
+DEPS = '_'
+MISC = '_'
 LEMMA = "_"
+
 text = sys.stdin.readlines()
 for c in text:
         c = c.replace('=',' = ')
@@ -18,6 +23,8 @@ for c in text:
         c = c.replace('·',' · ')
         c = c.replace('(',' ( ')
         c = c.replace(')',' ) ')
+        c = c.replace('?',' ? ')
+#        c = c.replace('!', ' ! ')
         c = c.strip('\n')
         if c =='':
                 continue
@@ -31,6 +38,6 @@ for c in text:
                 if token =='':
                         continue
                 tokencounter = tokencounter + 1
-                print('%d\t%s\t%s\t%s\t%s\t%s\t' % (tokencounter, token, LEMMA, POS, MORPHEME, GLOSS))
+                print('%d\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t' % (tokencounter, token, LEMMA, UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC))
         print()
 
