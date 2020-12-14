@@ -1,0 +1,45 @@
+# sent_id = dico:1
+# text = Mǎn à yògi ǹsaŋ i kɛ̀gi.
+# text[fra] = Le bébé est assis confortablement à côté de son père.
+1	Mǎn	mǎn	NOUN	_	_	_	_	_	Gloss=enfant
+2	à	à	PRON	_	_	_	_	_	Gloss=il
+3	yògi	yògi	ADV	_	_	_	_	_	Gloss=confortablement
+4	ǹsaŋ	ǹsaŋ	NOUN	_	_	_	_	_	Gloss=père
+5	i	i	DET	_	_	_	_	_	Gloss=ce
+6	kɛ̀gi	kɛ̀gi	NOUN	_	_	_	_	_	Gloss=à.côté
+7	.	.	PUNCT	_	_	_	_	_	Gloss=.
+
+# sent_id = dico:2
+# text = Nùga i ńyùgnɛ i ɓɛ̀l.
+# text[fra] = La viande se détache par la cuisse.
+1	Nùga	nùga	NOUN	_	_	_	_	_	Gloss=viande
+2	i	i	DET	_	_	_	_	_	Gloss=ce
+3	ńyùgnɛ	yùgnɛ̀	VERB	_	_	_	_	_	Gloss=se.détacher
+4	i	i	DET	_	_	_	_	_	Gloss=ce
+5	ɓɛ̀l	ɓɛ̀l	NOUN	_	_	_	_	_	Gloss=cuisse
+6	.	.	PUNCT	_	_	_	_	_	Gloss=.
+
+# sent_id = dico:3
+# text = Inyǔkı̄i ù ǹyuyuu man wɔ̀ŋ ?
+# text[fra] = Pourquoi as-tu abandonné ton enfant?
+1	Inyǔkı̄i	inyùukı̄	ADV	_	_	_	_	_	Gloss=porquoi
+2	ù	ù	PRON	_	_	_	_	_	Gloss=tu
+3	ǹyuyuu	yùyùù	VERB	_	_	_	_	_	Gloss=abandonner
+4	man	mǎn	NOUN	_	_	_	_	_	Gloss=enfant
+5	wɔ̀ŋ	wɔŋ	PRON	_	_	_	_	_	Gloss=ton
+6	?	?	PUNCT	_	_	_	_	_	Gloss=?
+
+# sent_id = dico:4
+# text = Mɛ̀ yè lɛ mɛ̀ ɓɔl nyɔɔ̄ nı̀ màkòò.
+# text[fra] = Je suis capable d’y aller à pied.
+1	Mɛ̀	mɛ̀	PRON	_	_	_	_	_	Gloss=je
+2	yè	ɓa	AUX	_	_	_	_	_	Gloss=suis
+3	lɛ	lɛ	SCONJ	_	_	_	_	_	Gloss=que
+4	mɛ̀	mɛ̀	PRON	_	_	_	_	_	Gloss=je
+5	ɓɔl	ɓɔl	VERB	_	_	_	_	_	Gloss=arriver
+6	nyɔɔ̄	nyɔ̀ɔ	ADV	_	_	_	_	_	Gloss=là-bas
+7	nı̀	nı̀	ADP	_	_	_	_	_	Gloss=avec
+8	màkòò	kòò	NOUN	_	_	_	_	_	Gloss=pied
+9	.	.	PUNCT	_	_	_	_	_	_
+
+
